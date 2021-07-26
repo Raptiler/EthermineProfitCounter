@@ -111,11 +111,6 @@ public class AppTableController implements Initializable {
         appTableView.setItems(data);
         appTableView.setStyle("-fx-alignment: center;");
     }
-    //System.out.println(dto.getData().stream().mapToDouble(x->x.getAmount()).sum());
-    //System.out.println(dto.getData().stream().map(EtherumTableModel::of).collect(Collectors.toList()));
-    //System.out.println(dto.getData());
-
-    //dto.getData().forEach(i -> { System.out.println(i.getAmount()); });
     private void setLabels(Double eth)
     {
         eth = Math.round(eth / 1000000000000000000L * 1000000.00)/1000000.00;
@@ -132,7 +127,7 @@ public class AppTableController implements Initializable {
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
-                dto.getData().forEach(x -> System.out.println(x.getAmount()));
+
                 CurrentStatsRestController currentStatsRestController = new CurrentStatsRestController(addressTextField.getText());
                 currentStatsDto = currentStatsRestController.getCurrentStats();
                 if(!dto.getData().isEmpty() && !currentStatsDto.getData().equals("NO DATA")) {

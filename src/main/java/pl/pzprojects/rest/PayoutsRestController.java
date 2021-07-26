@@ -27,8 +27,6 @@ public class PayoutsRestController extends MainRestController{
 
     public PayoutsEthermineDto getPayouts() throws IOException {
         ResponseEntity<String> r = restTemplate.getForEntity(PAYOUTS_URL,String.class);
-        System.out.println("UWAGA");
-        System.out.println(r.getBody());
         ResponseEntity<PayoutsEthermineDto> responseEntity = restTemplate.getForEntity(PAYOUTS_URL, PayoutsEthermineDto.class);
 
         if(HttpStatus.OK.equals(responseEntity.getStatusCode()) /*&& !responseEntity.getBody().getData().isEmpty()*/){

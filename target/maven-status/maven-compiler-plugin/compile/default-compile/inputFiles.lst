@@ -1,15 +1,12 @@
 C:\Users\zdune\IdeaProjects\EthProfitCounter\EthProfitCounter\src\main\java\pl\pzprojects\controller\AppTableController.java
 C:\Users\zdune\IdeaProjects\EthProfitCounter\EthProfitCounter\src\main\java\pl\pzprojects\dto\CurrentStatsModuleDto.java
 C:\Users\zdune\IdeaProjects\EthProfitCounter\EthProfitCounter\src\main\java\pl\pzprojects\rest\CurrentStatsRestController.java
-C:\Users\zdune\IdeaProjects\EthProfitCounter\EthProfitCounter\src\main\java\pl\pzprojects\controller\SecondaryController.java
 C:\Users\zdune\IdeaProjects\EthProfitCounter\EthProfitCounter\src\main\java\pl\pzprojects\dto\CurrentStatsDto.java
 C:\Users\zdune\IdeaProjects\EthProfitCounter\EthProfitCounter\src\main\java\pl\pzprojects\dto\EthAddressDto.java
 C:\Users\zdune\IdeaProjects\EthProfitCounter\EthProfitCounter\src\main\java\pl\pzprojects\App.java
 C:\Users\zdune\IdeaProjects\EthProfitCounter\EthProfitCounter\src\main\java\module-info.java
-C:\Users\zdune\IdeaProjects\EthProfitCounter\EthProfitCounter\src\main\java\pl\pzprojects\controller\Controller.java
 C:\Users\zdune\IdeaProjects\EthProfitCounter\EthProfitCounter\src\main\java\pl\pzprojects\dto\PayoutsEthermineDto.java
 C:\Users\zdune\IdeaProjects\EthProfitCounter\EthProfitCounter\src\main\java\pl\pzprojects\factory\TextFieldsFactory.java
-C:\Users\zdune\IdeaProjects\EthProfitCounter\EthProfitCounter\src\main\java\pl\pzprojects\controller\PrimaryController.java
 C:\Users\zdune\IdeaProjects\EthProfitCounter\EthProfitCounter\src\main\java\pl\pzprojects\factory\StageFactory.java
 C:\Users\zdune\IdeaProjects\EthProfitCounter\EthProfitCounter\src\main\java\pl\pzprojects\table\EtherumTableModel.java
 C:\Users\zdune\IdeaProjects\EthProfitCounter\EthProfitCounter\src\main\java\pl\pzprojects\dto\PayoutsEthermineDataDto.java
