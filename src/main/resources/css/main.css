@@ -1,0 +1,50 @@
+.exit-button{
+    -fx-background-color: -fx-primary-red;
+    -fx-background-radius: 0;
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-alignment: center;
+}
+
+.exit-button:hover{
+    -fx-background-color: -fx-secendary-red;
+}
+
+.title{
+    -fx-font-size: 40px;
+    -fx-text-fill: -fx-primary-blue;
+}
+
+.background{
+    -fx-background-color: -fx-primary-background;
+    -fx-border-color: -fx-primary-blue;
+}
+
+.semi-background{
+    -fx-background-color: -fx-primary-background;
+    -fx-border-color: -fx-primary-pink;
+}
+
+.text{
+    -fx-text-fill: -fx-primary-blue;
+}
+
+.label-text{
+    -fx-font-size: 21px;
+    -fx-text-fill: -fx-secendary-blue;
+}
+
+.table-column{
+    -fx-alignment: center;
+}
+
+.app_button{
+    -fx-text-fill: -fx-primary-blue;
+    -fx-background-color: -fx-primary-background;
+    -fx-border-color: -fx-primary-blue;
+    -fx-background-radius: 0;
+}
+
+.app_button:hover{
+    -fx-text-fill: -fx-secendary-background;
+}
